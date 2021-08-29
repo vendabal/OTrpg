@@ -1,0 +1,36 @@
+#:kivy 2.0.0
+
+<Authentification>:
+    size_hint: 1, 1
+    BoxLayout:
+        size: root.size
+        orientation: 'vertical'
+        BoxLayout:
+            orientation:'horizontal'
+            Label:
+                text: 'Log In'
+        BoxLayout:
+            orientation:'horizontal'
+            Label:
+                text: 'Username:'
+            TextInput:
+                multiline: False
+        BoxLayout:
+            orientation:'horizontal'
+            Label:
+                text: 'Password:'
+            TextInput:
+                multiline: False
+        BoxLayout:
+            orientation:'horizontal'
+            Label:
+                text: ''
+            BoxLayout:
+                orientation: 'vertical'
+                Label:
+                    text: ''
+                Button:
+                    text: 'Accept'
+
+        
+        
